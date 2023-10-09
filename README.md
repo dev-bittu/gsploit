@@ -34,6 +34,10 @@ cd gsploit
 ```bash
 sh scripts/setup.sh
 ```
+- In Termux:
+```bash
+sh scripts/setup-in-termux.sh
+```
 - In windows
 ```bash
 ./scripts/setup.bat
