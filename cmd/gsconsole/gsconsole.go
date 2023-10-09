@@ -1,4 +1,4 @@
-package gsconsole
+package main
 
 import "github.com/dev-bittu/gsploit/internal/console"
 
