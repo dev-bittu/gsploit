@@ -14,7 +14,7 @@ func (c Console) Run() {
   for {
     err := c.handle()
     if err != nil {
-      alert.Warning(err.Error())
+      alert.Warn(err.Error())
     }
   }
 }

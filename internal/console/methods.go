@@ -10,8 +10,9 @@ func (c *Console) help() {
   data, _ := config.Cfg["desc"]
   fmt.Println(data, "\n\n")
   for i, j := range config.Cfg {
-    if i != "title" || i != "desc" {
-      fmt.Printf("%s : %v", i, j)
+    if i == "title" || i == "desc" {
+    } else {
+      fmt.Printf("%s : %v\n", i, j)
     }
   }
 }
