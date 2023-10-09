@@ -1,0 +1,15 @@
+{
+  "name": "gsploit",
+  "link": "github.com/dev-bittu/gsploit",
+  "version": "v0.0.1",
+  "author": "dev-bittu (bittu)",
+  "devs": {
+    "dev-bittu": "github.com/dev-bittu"
+  },
+  "cmd": [
+    "gsconsole",
+    "gspayload"
+  ],
+  "title": "Gsploit is a highly capable framework for security professionals and penetration testers seeking to exploit vulnerabilities or gather information about potential attack vectors.",
+  "desc": "Gsploit is an exploit framework written in Go (Golang). It allows users to easily exploit vulnerabilities, create and encode payloads, and post exploits to networks. It offers a wide range of exploits to effectively penetrate target systems and access sensitive data. Additionally, Gsploit provides auxiliary modules such as port scanners and fingerprinting tools for gathering information about target systems. Users can create custom payloads using techniques like buffer overflows and shellcode injection, and the framework includes advanced encoding techniques to evade antivirus software and other security measures. Gsploit also offers post-exploitation modules for maintaining access to compromised systems, including tools for persistence and privilege escalation."
+}
